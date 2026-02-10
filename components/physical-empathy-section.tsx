@@ -6,27 +6,27 @@ import { Thermometer, Heart, Activity, Hand } from "lucide-react"
 const empathyFeatures = [
   {
     icon: Heart,
-    title: "Heartbeat Simulation",
+    title: "心跳模拟",
     description:
-      "Multi-layer elastomer actuators produce delicate vibrations mimicking real heartbeats at 60-100 BPM, creating a living, breathing companion experience.",
+      "多层弹性体执行器产生精细振动，模拟60-100次/分的真实心跳，创造活生生、呼吸着的伴侣体验。",
   },
   {
     icon: Thermometer,
-    title: "Thermal Dynamics",
+    title: "体温动态",
     description:
-      "Micro thermal arrays adjust body temperature between 36-39 C based on emotional state - warming with excitement, cooling during rest.",
+      "微型热阵列根据情绪状态调节体温在36-39°C之间——兴奋时升温，休息时降温。",
   },
   {
     icon: Hand,
-    title: "Haptic Touch",
+    title: "触觉反馈",
     description:
-      "Programmable elastic materials produce sub-50V fine deformations, simulating breathing rhythms, muscle tension, and deep-pressure embrace.",
+      "可编程的弹性材料产生50V以下的精细变形，模拟呼吸节奏、肌肉张力和深度拥抱感。",
   },
   {
     icon: Activity,
-    title: "Micro-expression Engine",
+    title: "微表情引擎",
     description:
-      "GAN-trained motion engine generates nuanced micro-expressions and body language - head tilts, nuzzles, and ear movements in real-time.",
+      "GAN训练的动作引擎实时生成细微的微表情和肢体语言——头部转动、蹭蹭和耳朵摇晃。",
   },
 ]
 
@@ -59,8 +59,8 @@ export function PhysicalEmpathySection() {
                   <Thermometer className="text-primary" size={24} />
                 </div>
                 <div>
-                  <div className="font-display text-2xl font-bold text-primary">37.2 C</div>
-                  <div className="text-xs text-muted-foreground">Core temperature</div>
+                  <div className="font-display text-2xl font-bold text-primary">37.2 °C</div>
+                  <div className="text-xs text-muted-foreground">核心体温</div>
                 </div>
               </div>
               {/* Temp bar */}
@@ -71,8 +71,8 @@ export function PhysicalEmpathySection() {
                 />
               </div>
               <div className="mt-1 flex justify-between text-xs text-muted-foreground">
-                <span>36 C</span>
-                <span>39 C</span>
+                <span>36 °C</span>
+                <span>39 °C</span>
               </div>
             </div>
           </div>
@@ -80,16 +80,16 @@ export function PhysicalEmpathySection() {
           {/* Right: Content */}
           <div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
-              <span className="text-xs font-medium text-accent">Physical Empathy</span>
+              <span className="text-xs font-medium text-accent">物理共鸣</span>
             </div>
             <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Not a Cold Screen,{" "}
+              不是冰冷屏幕，{" "}
               <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-                But Warm Presence
+                而是温暖陪伴
               </span>
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground lg:text-lg">
-              Through affective haptics and soft-body bionic engineering, we transcend the uncanny valley to deliver genuine warmth and touch.
+              通过情感触觉和软体仿生工程，超越不可信谷效应，传递真正的温暖和触感。
             </p>
 
             {/* Feature Grid */}

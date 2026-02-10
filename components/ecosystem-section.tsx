@@ -6,30 +6,30 @@ import { Home, Glasses, Globe, Cpu } from "lucide-react"
 const platforms = [
   {
     icon: Home,
-    title: "Physical Form",
-    subtitle: "Indoor Companion Robot",
+    title: "物理形态",
+    subtitle: "室内伴侣机器人",
     description:
-      "The tangible, huggable presence - a soft-body bionic companion with thermal dynamics, heartbeat simulation, and micro-expression capabilities for in-home care.",
+      "可触摸、可拥抱的实体——软体仿生伴侣，具备体温动态、心跳模拟和微表情能力，用于居家护理。",
     image: "/images/ecosystem-physical.jpg",
-    tech: "Elastomer Actuators + Jetson Orin",
+    tech: "弹性体执行器 + Jetson Orin",
   },
   {
     icon: Glasses,
-    title: "Augmented Reality",
-    subtitle: "AR Companion Walker",
+    title: "增强现实",
+    subtitle: "AR伴侣漫步者",
     description:
-      "Through AR smart glasses, your pet walks alongside you outdoors - a translucent holographic companion that navigates real-world terrain and interacts with your environment.",
+      "通过AR智能眼镜，你的伴侣在户外陪你行走——一个半透明全息伴侣，可以导航真实地形并与环境互动。",
     image: "/images/ecosystem-ar.jpg",
-    tech: "OpenUSD + Eye Tracking",
+    tech: "OpenUSD + 眼球追踪",
   },
   {
     icon: Globe,
-    title: "Digital Space",
-    subtitle: "Metaverse Avatar",
+    title: "数字空间",
+    subtitle: "元宇宙化身",
     description:
-      "Your pet's VRM-compatible digital twin lives in virtual social platforms like VRChat - serving as your unique assistant, companion, or even mount in the metaverse.",
+      "你的伴侣的VRM兼容数字孪生体存在于VRChat等虚拟社交平台——充当你独特的助手、伴侣，甚至元宇宙中的坐骑。",
     image: "/images/ecosystem-metaverse.jpg",
-    tech: "VRM Standard + AnimaView",
+    tech: "VRM标准 + AnimaView",
   },
 ]
 
@@ -44,16 +44,16 @@ export function EcosystemSection() {
         <div className="mx-auto max-w-2xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
             <Cpu size={14} className="text-accent" />
-            <span className="text-xs font-medium text-accent">Cross-Platform Ecosystem</span>
+            <span className="text-xs font-medium text-accent">跨界生态</span>
           </div>
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-            One Soul,{" "}
+            一个灵魂，{" "}
             <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-              Infinite Forms
+              无限形态
             </span>
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground lg:text-lg">
-            A continuous existence spanning physical and digital worlds - your AI companion flows seamlessly across reality, augmented reality, and virtual space.
+            跨越物理和数字世界的连续存在——你的AI伴侣无缝流动于现实、增强现实和虚拟空间。
           </p>
         </div>
 
@@ -119,11 +119,11 @@ export function EcosystemSection() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
               <h3 className="font-display text-2xl font-bold text-foreground lg:text-3xl text-balance">
-                Healthy Attachment{" "}
-                <span className="text-primary">Algorithm</span>
+                健康依恋{" "}
+                <span className="text-primary">算法</span>
               </h3>
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                Designed with anti-addiction principles rooted in attachment science. Our system actively promotes real-world social connection and personal growth.
+                基于依恋科学的防沉迷原则设计。我们的系统积极促进现实社交联系和个人成长。
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -132,10 +132,10 @@ export function EcosystemSection() {
                   <span className="text-xs font-bold text-primary">01</span>
                 </div>
                 <h4 className="font-display text-sm font-semibold text-foreground">
-                  Social Catalyst Mode
+                  社交催化模式
                 </h4>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  When prolonged AI interaction is detected with zero real social contact, the pet gets "bored" and asks to meet friends.
+                  当检测到长时间AI互动但零现实社交接触时，伴侣会"感到无聊"并要求见朋友。
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-card p-5">
@@ -143,10 +143,10 @@ export function EcosystemSection() {
                   <span className="text-xs font-bold text-accent">02</span>
                 </div>
                 <h4 className="font-display text-sm font-semibold text-foreground">
-                  Growth Separation
+                  成长分离
                 </h4>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  As your psychological resilience improves, the pet gradually reduces proactive interventions, encouraging independence.
+                  随着你的心理韧性提高，伴侣逐渐减少主动干预，鼓励独立性。
                 </p>
               </div>
             </div>

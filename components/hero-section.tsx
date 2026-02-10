@@ -27,32 +27,32 @@ export function HeroSection() {
         <div className="flex-1 text-center lg:text-left">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-xs font-medium text-primary">Next-Gen AI Companion</span>
+            <span className="text-xs font-medium text-primary">下一代AI伴侣</span>
           </div>
 
           <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl xl:text-7xl">
             <span className="text-balance">
-              {"Smart Companion "}
+              智驭灵宠：
               <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Giving Technology
+                科技有了心跳
               </span>
               <br />
-              a Heartbeat
+              温暖有了灵魂
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground lg:mx-0 lg:text-lg">
-            Deeply integrating multimodal AI with bionic technology to create the next generation of healing companions - featuring physical warmth and eternal digital souls.
+            深度融合多模态AI与仿生科技，打造新一代治愈伴侣——融合物理温度和永恒数字灵魂的终极体验。
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
             <Button size="lg" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-8">
               <Play size={16} />
-              Watch Demo
+              观看演示
             </Button>
             <Button size="lg" variant="outline" className="gap-2 border-border bg-transparent text-foreground hover:bg-secondary">
-              Book Early Access
+              预约体验
               <ArrowRight size={16} />
             </Button>
           </div>
@@ -60,9 +60,9 @@ export function HeroSection() {
           {/* Stats */}
           <div className="mt-14 flex items-center justify-center gap-8 lg:justify-start">
             {[
-              { value: "5+", label: "Sensory Modalities" },
-              { value: "36-39\u00B0C", label: "Dynamic Temperature" },
-              { value: "3yr+", label: "Memory Retention" },
+              { value: "5+", label: "感知模式" },
+              { value: "36-39\u00B0C", label: "体温范围" },
+              { value: "3年+", label: "记忆保留" },
             ].map((stat) => (
               <div key={stat.label} className="text-center lg:text-left">
                 <div className="font-display text-2xl font-bold text-primary">{stat.value}</div>
@@ -94,17 +94,17 @@ export function HeroSection() {
             <div className="absolute -left-4 top-1/4 z-20 rounded-xl border border-border bg-card/80 backdrop-blur-md px-4 py-3 shadow-xl animate-slide-up" style={{ animationDelay: "0.5s" }}>
               <div className="flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-primary animate-pulse" />
-                <span className="text-xs font-medium text-foreground">Heartbeat Active</span>
+                <span className="text-xs font-medium text-foreground">心跳活跃</span>
               </div>
-              <div className="mt-1 text-xs text-muted-foreground">72 BPM | 37.2 C</div>
+              <div className="mt-1 text-xs text-muted-foreground">72 次/分 | 37.2 °C</div>
             </div>
 
             <div className="absolute -right-4 top-2/3 z-20 rounded-xl border border-border bg-card/80 backdrop-blur-md px-4 py-3 shadow-xl animate-slide-up" style={{ animationDelay: "0.8s" }}>
               <div className="flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-accent animate-pulse" />
-                <span className="text-xs font-medium text-foreground">Emotion Sync</span>
+                <span className="text-xs font-medium text-foreground">情绪同步</span>
               </div>
-              <div className="mt-1 text-xs text-muted-foreground">Calm & Content</div>
+              <div className="mt-1 text-xs text-muted-foreground">平静且满足</div>
             </div>
           </div>
         </div>

@@ -6,61 +6,61 @@ import { Shield, Brain, Activity, HeartPulse, Smile, Wind } from "lucide-react"
 const therapyModules = [
   {
     icon: Smile,
-    cbtStage: "Emotion Recording",
-    gameTitle: "Mood Feeding",
+    cbtStage: "情绪记录",
+    gameTitle: "心情喂养",
     description:
-      "The pet asks about your mood daily. You select colored 'emotion energy blocks' to feed it - the system auto-logs emotional patterns over time.",
-    theory: "Emotion externalization technique",
+      "伴侣每天询问你的心情。你选择彩色'情绪能量块'来喂它——系统自动记录随时间变化的情绪模式。",
+    theory: "情绪外化技巧",
   },
   {
     icon: Brain,
-    cbtStage: "Cognitive Restructuring",
-    gameTitle: "Nightmare Dispeller",
+    cbtStage: "认知重构",
+    gameTitle: "噩梦消除器",
     description:
-      "When you express anxious thoughts like 'I can't do anything right', the pet visualizes them as 'little monsters' you defeat with counter-evidence.",
-    theory: "Socratic questioning method",
+      "当你表达焦虑思想如'我什么都做不好'时，伴侣将其视觉化为'小怪物'，你用反证来击败它们。",
+    theory: "苏格拉底式提问法",
   },
   {
     icon: Shield,
-    cbtStage: "Exposure Therapy",
-    gameTitle: "Brave Quests",
+    cbtStage: "暴露疗法",
+    gameTitle: "勇敢任务",
     description:
-      "For social anxiety, the pet assigns real-world missions ('Take me to the park for 10 minutes') with virtual badge rewards for completion.",
-    theory: "Systematic desensitization",
+      "针对社交焦虑，伴侣分配现实任务（'带我去公园10分钟'），完成后获得虚拟徽章奖励。",
+    theory: "系统脱敏法",
   },
   {
     icon: Wind,
-    cbtStage: "Mindfulness Meditation",
-    gameTitle: "Synchronized Breathing",
+    cbtStage: "正念冥想",
+    gameTitle: "呼吸同步",
     description:
-      "The pet's body rises and falls to guide 4-7-8 breathing exercises, using haptic feedback to help you focus and achieve deep relaxation.",
-    theory: "Biofeedback relaxation",
+      "伴侣身体上下起伏引导4-7-8呼吸法，使用触觉反馈帮助你专注并实现深度放松。",
+    theory: "生物反馈放松",
   },
 ]
 
 const feedbackLoop = [
   {
-    step: "SENSE",
-    label: "Perception",
-    description: "Sensors detect HRV decrease and EDA elevation",
+    step: "感知",
+    label: "感知层",
+    description: "传感器检测心率变异性下降和皮肤电活动升高",
     color: "text-primary",
   },
   {
-    step: "ANALYZE",
-    label: "Analysis",
-    description: "AI identifies acute anxiety precursors",
+    step: "分析",
+    label: "分析层",
+    description: "AI识别急性焦虑前兆",
     color: "text-accent",
   },
   {
-    step: "DECIDE",
-    label: "Decision",
-    description: "Historical data: user responds best to deep-pressure touch",
+    step: "决策",
+    label: "决策层",
+    description: "历史数据：用户对深压触感反应最好",
     color: "text-primary",
   },
   {
-    step: "ACT",
-    label: "Execution",
-    description: "Initiate embrace + 20-50Hz purring vibration for neural relaxation",
+    step: "执行",
+    label: "执行层",
+    description: "启动拥抱+20-50Hz呼噜振动以实现神经放松",
     color: "text-accent",
   },
 ]
@@ -77,16 +77,16 @@ export function ClinicalSection() {
           <div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
               <HeartPulse size={14} className="text-primary" />
-              <span className="text-xs font-medium text-primary">Clinical DTx</span>
+              <span className="text-xs font-medium text-primary">医疗级DTx</span>
             </div>
             <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Medical-Grade{" "}
+              医疗级{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Healing Pathway
+                治愈路径
               </span>
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground lg:text-lg">
-              Evidence-based digital Cognitive Behavioral Therapy (dCBT) seamlessly embedded into daily companion interactions, making mental healthcare feel like play.
+              循证数字认知行为疗法（dCBT）无缝融入日常伴侣互动，让心理健康护理变成游戏。
             </p>
           </div>
 
@@ -102,7 +102,7 @@ export function ClinicalSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent" />
             <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3">
               <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-sm text-foreground">Active Therapy Session</span>
+              <span className="text-sm text-foreground">活跃治疗课程</span>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export function ClinicalSection() {
 
               <div className="mt-4 rounded-lg border border-border bg-secondary/50 px-3 py-2">
                 <span className="text-xs text-muted-foreground">
-                  Theory: {module.theory}
+                  理论：{module.theory}
                 </span>
               </div>
 
@@ -145,17 +145,17 @@ export function ClinicalSection() {
         {/* Biofeedback Loop */}
         <div className="mt-20">
           <h3 className="text-center font-display text-2xl font-bold text-foreground">
-            Adaptive Biofeedback Loop
+            自适应生物反馈环
           </h3>
           <p className="mx-auto mt-3 max-w-xl text-center text-sm text-muted-foreground">
-            A closed-loop feedback mechanism that senses, analyzes, decides, and acts in real-time.
+            一个实时感知、分析、决策和执行的闭环反馈机制。
           </p>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {feedbackLoop.map((item, index) => (
               <div key={item.step} className="relative">
                 <div className="rounded-xl border border-border bg-card p-5 h-full">
-                  <div className={`font-display text-xs font-bold uppercase tracking-widest ${item.color}`}>
+                  <div className={`font-display text-xs font-bold tracking-widest ${item.color}`}>
                     {item.step}
                   </div>
                   <h4 className="mt-2 font-display text-lg font-semibold text-foreground">
@@ -191,10 +191,10 @@ export function ClinicalSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-card/60 to-transparent" />
             <div className="absolute bottom-6 left-6 max-w-xs">
               <h4 className="font-display text-lg font-bold text-foreground">
-                Multi-dimensional Physiological Monitoring
+                多维生理监测
               </h4>
               <p className="mt-1 text-xs text-muted-foreground">
-                Real-time EDA and HRV data analysis through smart wearable integration.
+                通过智能穿戴整合进行实时皮肤电和心率变异性数据分析。
               </p>
             </div>
           </div>
@@ -202,13 +202,13 @@ export function ClinicalSection() {
           <div className="flex flex-col justify-center rounded-2xl border border-border bg-card p-8">
             <Activity className="text-primary mb-4" size={32} />
             <h4 className="font-display text-xl font-bold text-foreground">
-              Edge AI Privacy Shield
+              边缘AI隐私盾
             </h4>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              All visual analysis (gait recognition, fall detection) and voice wake-up run on local edge chips (NVIDIA Jetson Orin Nano). Only de-identified emotional feature vectors are uploaded to the cloud - maximum privacy protection.
+              所有视觉分析（步态识别、跌倒检测）和语音唤醒都在本地边缘芯片（NVIDIA Jetson Orin Nano）上运行。仅将去识别化的情感特征向量上传到云端——最大隐私保护。
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {["On-device Processing", "HIPAA-Ready", "FDA Cybersecurity", "Medicare Digital Health"].map((tag) => (
+              {["本地处理", "HIPAA就绪", "FDA网安", "医保数字健康"].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs text-primary"

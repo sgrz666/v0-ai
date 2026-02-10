@@ -6,32 +6,32 @@ import { Brain, Database, Eye } from "lucide-react"
 const techCards = [
   {
     icon: Brain,
-    title: "Dynamic Personality",
-    subtitle: "OCEAN Personality Engine",
+    title: "动态人格",
+    subtitle: "OCEAN人格引擎",
     description:
-      "Based on the Big Five psychological model, the AI pet's personality evolves through real interactions. Openness, conscientiousness, extraversion, agreeableness, and neuroticism parameters shift dynamically as your bond deepens.",
+      "基于五大性格心理学模型，AI伴侣的人格通过真实互动不断演变。开放性、尽责性、外向性、宜人性和神经质等参数随着情感联系的深化动态调整。",
     image: "/images/tech-personality.jpg",
-    features: ["Real-time OCEAN evolution", "Multi-agent decision framework", "Empathy fatigue modeling"],
+    features: ["实时OCEAN进化", "多智能体决策框架", "共情疲劳建模"],
     accentColor: "primary",
   },
   {
     icon: Database,
-    title: "Long-term Memory",
-    subtitle: "RAG-Enhanced Memory Vault",
+    title: "长期记忆",
+    subtitle: "RAG增强记忆库",
     description:
-      "Powered by Retrieval-Augmented Generation, your pet remembers conversations from years ago - your emotional triggers, life habits, and deepest moments. Memories consolidate during simulated 'sleep cycles'.",
+      "采用检索增强生成技术，伴侣能记忆多年前的对话、你的情感触发点、生活习惯和深层时刻。在模拟睡眠周期中记忆逐渐固化。",
     image: "/images/tech-memory.jpg",
-    features: ["3+ year memory retention", "Sleep-cycle consolidation", "Contextual recall engine"],
+    features: ["3年+记忆保留", "睡眠周期固化", "上下文召回引擎"],
     accentColor: "accent",
   },
   {
     icon: Eye,
-    title: "Multimodal Perception",
-    subtitle: "5-Sense Neural Fusion",
+    title: "多模态感知",
+    subtitle: "5感神经融合",
     description:
-      "Visual expression capture, auditory tone recognition, and tactile hug sensing - all processed through a unified perception pipeline for millisecond emotional synchronization.",
+      "视觉表情捕捉、听觉音调识别和触觉拥抱感知——全部通过统一感知管道处理，实现毫秒级情绪同步。",
     image: "/images/tech-perception.jpg",
-    features: ["Facial expression analysis", "Voice tone recognition", "Haptic touch sensing"],
+    features: ["面部表情分析", "语音音调识别", "触觉接触感知"],
     accentColor: "primary",
   },
 ]
@@ -46,16 +46,16 @@ export function TechSoulSection() {
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
-            <span className="text-xs font-medium text-primary">The Tech Soul</span>
+            <span className="text-xs font-medium text-primary">科技灵魂</span>
           </div>
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-            Technology Soul{" "}
+            科技灵魂{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Blueprint
+              蓝图
             </span>
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground lg:text-lg">
-            Three core black-technology barriers that form the foundation of truly sentient AI companionship.
+            三大黑科技壁垒，构筑真正具有感知的AI伴侣的基础。
           </p>
         </div>
 

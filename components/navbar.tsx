@@ -5,10 +5,10 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "Tech Soul", href: "#tech-soul" },
-  { label: "Physical Empathy", href: "#physical-empathy" },
-  { label: "Clinical DTx", href: "#clinical-dtx" },
-  { label: "Ecosystem", href: "#ecosystem" },
+  { label: "科技灵魂", href: "#tech-soul" },
+  { label: "物理共鸣", href: "#physical-empathy" },
+  { label: "医疗方案", href: "#clinical-dtx" },
+  { label: "跨界生态", href: "#ecosystem" },
 ]
 
 export function Navbar() {
@@ -38,7 +38,7 @@ export function Navbar() {
             </svg>
           </div>
           <span className="font-display text-lg font-bold text-foreground tracking-tight">
-            SoulSync <span className="text-primary">AI</span>
+            智驭 <span className="text-primary">灵宠</span>
           </span>
         </a>
 
@@ -58,10 +58,10 @@ export function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden items-center gap-3 md:flex">
           <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-            Watch Demo
+            观看演示
           </Button>
           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Book Early Access
+            预约体验
           </Button>
         </div>
 
@@ -91,10 +91,10 @@ export function Navbar() {
             ))}
             <div className="mt-3 flex flex-col gap-2">
               <Button variant="outline" size="sm" className="w-full bg-transparent">
-                Watch Demo
+                观看演示
               </Button>
               <Button size="sm" className="w-full bg-primary text-primary-foreground">
-                Book Early Access
+                预约体验
               </Button>
             </div>
           </div>

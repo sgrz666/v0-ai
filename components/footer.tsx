@@ -9,22 +9,22 @@ export function Footer() {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/3 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-6 py-20 text-center">
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">
-            Ready to Meet Your{" "}
+            准备好迎接你的{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              AI Soulmate
+              AI灵魂伴侣
             </span>
-            ?
+            了吗？
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground">
-            Join the early access program and be among the first to experience the future of AI companionship.
+            加入抢先体验计划，成为首批体验AI伴侣未来的人。
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-8">
-              Book Early Access
+              预约体验
               <ArrowUpRight size={16} />
             </Button>
             <Button size="lg" variant="outline" className="gap-2 border-border bg-transparent text-foreground hover:bg-secondary">
-              View Full Technical Paper
+              查看完整技术论文
             </Button>
           </div>
         </div>
@@ -43,21 +43,21 @@ export function Footer() {
                   </svg>
                 </div>
                 <span className="font-display text-sm font-bold text-foreground">
-                  SoulSync AI
+                  智驭灵宠
                 </span>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                The next generation of healing companions: physical warmth meets digital souls.
+                下一代治愈伴侣：物理温度与数字灵魂的完美相遇。
               </p>
             </div>
 
             {/* Technology */}
             <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-foreground">
-                Technology
+              <h4 className="text-xs font-semibold tracking-wider text-foreground">
+                科技
               </h4>
               <ul className="mt-3 space-y-2">
-                {["OCEAN Personality", "RAG Memory", "Haptic Engine", "Edge AI"].map((item) => (
+                {["OCEAN人格", "RAG记忆", "触觉引擎", "边缘AI"].map((item) => (
                   <li key={item}>
                     <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-primary">
                       {item}
@@ -69,11 +69,11 @@ export function Footer() {
 
             {/* Clinical */}
             <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-foreground">
-                Clinical
+              <h4 className="text-xs font-semibold tracking-wider text-foreground">
+                医疗
               </h4>
               <ul className="mt-3 space-y-2">
-                {["CBT Module", "Biofeedback", "Elder Care", "Privacy & Security"].map((item) => (
+                {["CBT模块", "生物反馈", "老年护理", "隐私与安全"].map((item) => (
                   <li key={item}>
                     <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-primary">
                       {item}
@@ -85,11 +85,11 @@ export function Footer() {
 
             {/* Company */}
             <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-foreground">
-                Company
+              <h4 className="text-xs font-semibold tracking-wider text-foreground">
+                公司
               </h4>
               <ul className="mt-3 space-y-2">
-                {["About Us", "Research Papers", "Contact", "Careers"].map((item) => (
+                {["关于我们", "研究论文", "联系方式", "加入我们"].map((item) => (
                   <li key={item}>
                     <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-primary">
                       {item}
@@ -103,10 +103,10 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
             <p className="text-xs text-muted-foreground">
-              2026 SoulSync AI. All rights reserved.
+              2026 智驭灵宠。版权所有。
             </p>
             <div className="flex items-center gap-6">
-              {["Privacy Policy", "Terms of Service", "FDA Compliance"].map((item) => (
+              {["隐私政策", "服务条款", "FDA合规"].map((item) => (
                 <a key={item} href="#" className="text-xs text-muted-foreground transition-colors hover:text-primary">
                   {item}
                 </a>
